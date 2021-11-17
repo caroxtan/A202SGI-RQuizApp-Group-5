@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">RQuiz</string>
+
+    <string name="openNavDrawer">Navigation Drawer Open</string>
+    <string name="closeNavDrawer">Navigation Drawer Close</string>
+    <string name="title_activity_share">ShareActivity</string>
+
+    <string name="about_application">
+        RQuiz application is created for primary students to prepare for their exams coming soon
+    </string>
+
+</resources>

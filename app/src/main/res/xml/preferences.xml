@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- PreferenceCategory -->
+    <PreferenceCategory
+        android:title="Personal Information"
+        android:textColor="#FF0303">
+        <EditTextPreference
+            android:defaultValue="Player"
+            android:dialogTitle="Enter your full name"
+            android:inputType="textCapWords"
+            android:key="pref_player_name"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:summary="Enter your full name to be used in the application."
+            android:title="Your Name" />
+    </PreferenceCategory>
+
+    <!-- SwitchPreference -->
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="switch_example"
+        android:summary="Record the quiz session into the view history"
+        android:title="Record History" />
+
+
+</PreferenceScreen>
